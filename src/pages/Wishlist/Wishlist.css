@@ -1,0 +1,25 @@
+.wishlist-page {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wishlist-page h1 {
+  margin-bottom: 16px;
+}
+
+.wishlist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.wishlist-empty {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.wishlist-empty a {
+  display: inline-block;
+  margin-top: 12px;
+  color: #2563eb;
+}

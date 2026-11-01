@@ -1,0 +1,13 @@
+.search-bar {
+  width: 100%;
+  max-width: 320px;
+  padding: 8px 14px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 14px;
+  outline: none;
+}
+
+.search-bar:focus {
+  border-color: #2563eb;
+}

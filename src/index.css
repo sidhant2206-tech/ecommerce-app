@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #f9fafb;
+  color: #222;
+}
+
+/* ---------- Dark mode ---------- */
+[data-theme="dark"] body {
+  background: #111827;
+  color: #e5e7eb;
+}
+
+[data-theme="dark"] .navbar {
+  background: #1f2937;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+[data-theme="dark"] .navbar-links a {
+  color: #e5e7eb;
+}
+
+[data-theme="dark"] .navbar-links a.active {
+  color: #60a5fa;
+}
+
+[data-theme="dark"] .search-bar,
+[data-theme="dark"] .filters select {
+  background: #374151;
+  color: #e5e7eb;
+  border-color: #4b5563;
+}
+
+[data-theme="dark"] .product-card,
+[data-theme="dark"] .details-wrapper,
+[data-theme="dark"] .cart-item,
+[data-theme="dark"] .cart-summary {
+  background: #1f2937;
+}
+
+[data-theme="dark"] .product-category,
+[data-theme="dark"] .details-category,
+[data-theme="dark"] .cart-item-category,
+[data-theme="dark"] .no-results {
+  color: #9ca3af;
+}
+
+[data-theme="dark"] .details-description,
+[data-theme="dark"] .details-stock {
+  color: #d1d5db;
+}
+
+[data-theme="dark"] .qty-controls button {
+  background: #374151;
+  color: #e5e7eb;
+  border-color: #4b5563;
+}
+
+[data-theme="dark"] .summary-row.total {
+  border-top-color: #374151;
+}
+
+[data-theme="dark"] .loader {
+  border-color: #374151;
+  border-top-color: #60a5fa;
+}

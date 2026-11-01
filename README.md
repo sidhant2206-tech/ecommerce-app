@@ -94,6 +94,9 @@ src/
 
 Product data is fetched from [DummyJSON](https://dummyjson.com/products).
 
+- **Live Demo:**
+https://ecommerce-app-rust-one.vercel.app
+
 
 ## 👤 Author
 

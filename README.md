@@ -94,9 +94,6 @@ src/
 
 Product data is fetched from [DummyJSON](https://dummyjson.com/products).
 
-## 📸 Screenshots
-
-(Yahan screenshots daalna: Home, Products, Product Details, Cart, Dark Mode)
 
 ## 👤 Author
 
